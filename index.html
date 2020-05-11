@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            Register here
+        </title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles1.css">
+        
+    </head>
+    
+    <body>
+    
+        <div class="container-fluid" id="boxes">
+        <div class="row justify-content-center ">
+            <div class="col-md-3">
+                <input type="text" class="form-control" id="fname" placeholder="Enter Git-id">
+            </div>
+        </div>
+        
+        <div class="row justify-content-center " id="sub">   
+            <button type="submit" class="btn btn-dark" id="submit" onclick="handleGit()"> SEARCH </button>
+        </div>
+        <div class="row justify-content-center ">
+            <div class="col-3">
+            
+            <table class="table" id="followerstab">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Followers</th>
+                  </tr>
+                </thead>
+                <tbody>  
+                  <tr>
+                    
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              <div class="col-3">
+                <table class="table" id="followingtab">
+                    <thead class="thead-light">
+                      <tr>
+                        <th scope="col">Following</th>
+                      </tr>
+                    </thead>
+                    <tbody>  
+                    </tbody>
+                  </table>
+                </div>
+        </div>
+        </div>
+        <div class="container-fluid" id="notfound" >
+          <div class="row justify-content-center ">
+              <div class="col-md-6" >
+                  <h2 id="nftext"> Account Not Found</h2>
+              </div>
+          </div>
+        <script src="app.js"></script>
+    <body
